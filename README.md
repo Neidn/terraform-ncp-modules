@@ -4,7 +4,7 @@ NCP(공공/민간) 표준 Terraform 모듈. 고객사 repo는 이 repo를 **태�
 
 ```hcl
 module "service" {
-  source = "git::https://<GITEA_HOST>/infra/terraform-ncp-modules.git//stacks/web-service?ref=v1.0.0"
+  source = "git::https://github.com/Neidn/terraform-ncp-modules.git//stacks/web-service?ref=v1.0.0"
   # ...
 }
 ```
